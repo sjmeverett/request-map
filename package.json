@@ -1,6 +1,6 @@
 {
   "name": "@sjmeverett/request-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -15,8 +15,8 @@
   },
   "author": "Stewart Everett (https://stewarteverett.com)",
   "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0"
+  "peerDependencies": {
+    "react": "16-18"
   },
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
@@ -31,6 +31,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "jsdom": "^22.1.0",
     "prettier": "^3.0.0",
+    "react": "^18.2.0",
     "typescript": "^5.1.6",
     "vitest": "^0.33.0"
   },
