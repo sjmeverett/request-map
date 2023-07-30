@@ -1,0 +1,53 @@
+{
+  "name": "@sjmeverett/request-map",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Organizes requests by string keys so they can be deduped, cached and refetched",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p build.tsconfig.json",
+    "test": "vitest",
+    "lint": "eslint src/ --ext=ts,tsx",
+    "lint:fix": "eslint src/ --ext=ts --fix"
+  },
+  "author": "Stewart Everett (https://stewarteverett.com)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/lodash": "^4.14.196",
+    "@types/react": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jsdom": "^22.1.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjmeverett/request-map.git"
+  },
+  "keywords": [
+    "request",
+    "map",
+    "cache"
+  ],
+  "bugs": {
+    "url": "https://github.com/sjmeverett/request-map/issues"
+  },
+  "homepage": "https://github.com/sjmeverett/request-map#readme"
+}
